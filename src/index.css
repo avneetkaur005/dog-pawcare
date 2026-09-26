@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
+  --color-paw-cream: #fff7ed;
+  --color-paw-peach: #ffedd5;
+  --color-paw-orange: #ea580c;
+  --color-paw-brown: #7c2d12;
+  --color-paw-teal: #0f766e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: #fffaf5;
+  color: #44403c;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+html.dark body {
+  background-color: #1c1917;
+  color: #e7e5e4;
+}
+
+#root {
+  min-height: 100svh;
+}
