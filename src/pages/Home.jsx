@@ -62,7 +62,7 @@ export default function Home() {
             </div>
           </div>
           <img
-            src="/dogs/hero.jpg"
+            src={`${import.meta.env.BASE_URL}dogs/hero.jpg`}
             alt="Happy dog looking at the camera"
             className="h-80 w-full rounded-3xl object-cover shadow-xl md:h-[420px]"
           />

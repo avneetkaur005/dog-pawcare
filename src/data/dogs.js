@@ -6,7 +6,7 @@ export const dogs = [
     age: 3,
     ageLabel: 'Adult',
     gender: 'Female',
-    image: '/dogs/bella.jpg',
+    image: `${import.meta.env.BASE_URL}dogs/bella.jpg`,
     shortDescription: 'Gentle, friendly, and always ready for a family walk.',
     description:
       'Bella is a sunny Golden Retriever who loves people of all ages. She is house-trained, enjoys fetch, and settles well after playtime. She would thrive in a home that can give her daily outdoor time.',
@@ -21,7 +21,7 @@ export const dogs = [
     age: 2,
     ageLabel: 'Young',
     gender: 'Male',
-    image: '/dogs/max.jpg',
+    image: `${import.meta.env.BASE_URL}dogs/max.jpg`,
     shortDescription: 'Energetic Lab who loves swimming, toys, and snacks.',
     description:
       'Max is a bright young Labrador with a big heart. He is learning basic commands and already sits for treats. He needs an active home that enjoys parks, games, and plenty of exercise.',
@@ -36,7 +36,7 @@ export const dogs = [
     age: 4,
     ageLabel: 'Adult',
     gender: 'Female',
-    image: '/dogs/luna.jpg',
+    image: `${import.meta.env.BASE_URL}dogs/luna.jpg`,
     shortDescription: 'Talkative Husky who enjoys long walks and cool weather.',
     description:
       'Luna is an independent but loving Husky. She enjoys running, exploring, and “talking” to her people. A securely fenced yard and daily exercise will help her stay happy.',
@@ -51,7 +51,7 @@ export const dogs = [
     age: 1,
     ageLabel: 'Puppy',
     gender: 'Male',
-    image: '/dogs/charlie.jpg',
+    image: `${import.meta.env.BASE_URL}dogs/charlie.jpg`,
     shortDescription: 'Curious Beagle puppy with a nose for adventure.',
     description:
       'Charlie is a sweet Beagle puppy who follows scents everywhere he goes. He is crate-training well and loves puzzle toys. He will do best with patient owners who enjoy training.',
@@ -66,7 +66,7 @@ export const dogs = [
     age: 5,
     ageLabel: 'Adult',
     gender: 'Female',
-    image: '/dogs/daisy.jpg',
+    image: `${import.meta.env.BASE_URL}dogs/daisy.jpg`,
     shortDescription: 'Short legs, big personality, and a talent for making people smile.',
     description:
       'Daisy is a confident Corgi who enjoys short walks, naps, and being part of family life. She is already house-trained and knows sit, stay, and paw.',
@@ -81,7 +81,7 @@ export const dogs = [
     age: 6,
     ageLabel: 'Adult',
     gender: 'Male',
-    image: '/dogs/rocky.jpg',
+    image: `${import.meta.env.BASE_URL}dogs/rocky.jpg`,
     shortDescription: 'Loyal companion who likes structure, training, and quiet evenings.',
     description:
       'Rocky is a calm German Shepherd looking for a steady home. He already knows several commands and enjoys puzzle toys. He would love a family that can continue gentle training.',
@@ -96,7 +96,7 @@ export const dogs = [
     age: 8,
     ageLabel: 'Senior',
     gender: 'Male',
-    image: '/dogs/milo.jpg',
+    image: `${import.meta.env.BASE_URL}dogs/milo.jpg`,
     shortDescription: 'Gentle senior Poodle who enjoys calm homes and soft beds.',
     description:
       'Milo is a low-energy senior who still loves short strolls and cuddles. He is great for apartments and first-time adopters who want a quieter companion.',
@@ -111,7 +111,7 @@ export const dogs = [
     age: 2,
     ageLabel: 'Young',
     gender: 'Female',
-    image: '/dogs/coco.jpg',
+    image: `${import.meta.env.BASE_URL}dogs/coco.jpg`,
     shortDescription: 'Happy mixed-breed dog who gets along with almost everyone.',
     description:
       'Coco is a medium-sized mix with a wagging tail and a goofy grin. She is adaptable, crate-trained, and already used to car rides. A wonderful choice for an active household.',
